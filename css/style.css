@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(74, 153, 211);
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 110px;
+    color: white;
+    position: relative;
+        
+}
+
+.blue{
+    position: relative;
+    background-color: rgba(33, 63, 100, 0.69);
+    padding: 56px 70px 170px 70px;
+    z-index: 2;
+ 
+}
+
+h1{
+    font-family: 'Open Sans',  sans-serif;
+    font-size: 36px;
+    padding: 0px 0px 40px 0px;
+    font-weight: 600;
+}
+
+h2{
+    font-family: 'Open Sans',  sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 13px 0px 28px 0px;
+}
+
+p{
+    font-family: 'Open Sans',  sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0px 0px 20px 0px;
+}
+
+.small-text{
+    padding: 0 0 28px 0;
+
+}
+
+.grass{
+    background-image: url(../images/grass.png);
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    top: 86%;
+    z-index: 100;
+    
+}
+
+.cloud1{
+    position:absolute;
+    width: 250px;
+    height: 130px;
+    z-index: 3;
+    top: -65px;
+    right: -130px;
+
+}
+
+.cloud2{
+    position:absolute;
+    width:530px ;
+    height:160px ;
+    z-index: 1;
+    top: 70px;
+    left: -195px;
+    opacity: 0.37
+    
+}
+
+.cloud3{
+    position:absolute;
+    width:530px ;
+    height: 160px ;
+    z-index: 1;
+    top: 230px;
+    right: -190px;
+    opacity: 0.37
+    
+}
+
+.cloud4{
+    position:absolute;
+    width:190px ;
+    height: 115px ;
+    z-index: 1;
+    top: 385px;
+    left: 50px;
+    opacity: 0.37
+
+}
+
+.blue img{
+    padding: 132px 5px 0 5px;
+}
+
